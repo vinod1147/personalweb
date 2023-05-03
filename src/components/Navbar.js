@@ -13,28 +13,32 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='sticky left-0 top-0 w-full z-10 ease-in duration-300 shadow-md darkgrey bg-[#24252a]'>
-                <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-black'>
+            <div className='sticky left-0 top-0 w-full z-10 ease-in duration-300 bg-[#0d0d0d]'>
+                <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-[#edf0f1]'>
                     <div href='/'>
-                        <h1 className='font-bold text-4xl hover:text-gray-500'>
-                            <Image src="/favicon.ico" width={50} height={50}></Image>
+                        <h1 className='font-bold text-3xl hover:text-[#ee5b6e] cursor-pointer'>
+                            {/* <Image src="/favicon.ico" width={50} height={50}></Image> */}
+                            VINOD
                         </h1>
                     </div>
                     <ul className='hidden sm:flex'>
                         <li className='p-4'>
-                            <Link className=' text-[#edf0f1] hover:text-[#0088a9] transition-all' href='/' >HOME</Link>
+                            <Link className='text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all' href='/' >HOME</Link>
                         </li>
                         <li className='p-4'>
-                            <Link className=' text-[#edf0f1] hover:text-[#0088a9] transition-all' href='/about'>ABOUT</Link>
+                            <Link className='text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all' href='/about'>ABOUT</Link>
                         </li>
                         <li className='p-4'>
-                            <Link className=' text-[#edf0f1] hover:text-[#0088a9] transition-all' href='/contact'>PROJECTS</Link>
+                            <Link className='text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all' href='/contact'>SERVICES</Link>
                         </li>
                         <li className='p-4'>
-                            <Link className=' text-[#edf0f1] hover:text-[#0088a9] transition-all' href='/resource'>SERVICES</Link>
+                            <Link className='text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all' href='/resource'>PORTFOLIO</Link>
+                        </li>
+                        <li className='p-4'>
+                            <Link className='text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all' href='/resource'>CONTACT</Link>
                         </li>
                     </ul>
-                    <button className='rounded-full font-semibold text-[#edf0f1] p-2 w-32 bg-[#0088a9] hover:bg-[#0088a9cc] transition-all cButton'>Contact</button>
+                    <button className='rounded-none font-semibold text-[#edf0f1] px-7 py-3 bg-[#ee5b6e] hover:bg-[#0B2B3C] transition-colors cButton'>DownloadCV</button>
 
 
                     {/* Mobile Button */}
@@ -54,19 +58,19 @@ const Navbar = () => {
                         }
                     >
                         <ul>
-                            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                            <li onClick={handleNav} className='p-4 text-3xl text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all'>
                                 <Link href='/'>HOME</Link>
                             </li>
-                            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                            <li onClick={handleNav} className='p-4 text-3xl text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all'>
                                 <Link href='/about'>ABOUT</Link>
                             </li>
-                            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                            <li onClick={handleNav} className='p-4 text-3xl text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all'>
                                 <Link href='/contact'>CONTACT</Link>
                             </li>
-                            <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
+                            <li onClick={handleNav} className='p-4 text-3xl text-[#edf0f1] hover:text-[#ee5b6e] font-bold transition-all'>
                                 <Link href='/resource'>RESOURCE</Link>
                             </li>
-                            <button className='rounded-full font-semibold text-[#edf0f1] m-4 p-2 w-32 bg-[#0088a9] hover:bg-[#0088a9cc] transition-all'>Contact</button>
+                            <button className='rounded-none font-semibold text-[#edf0f1] m-4 px-7 py-3 bg-[#ee5b6e] hover:bg-[#0B2B3C] transition-colors'>Contact</button>
                         </ul>
                     </div>
                 </div>
