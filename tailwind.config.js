@@ -7,7 +7,10 @@ module.exports = {
     extend: {},
     animation: {
       'spin-slow': 'spin 20s linear infinite',
-    }
+    },
+    backgroundImage: {
+      'footerbg': "url('/footerbg.png')",
+    },
   },
   plugins: [],
 }

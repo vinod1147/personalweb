@@ -13,7 +13,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='sticky left-0 top-0 w-full z-10 ease-in duration-300 bg-[#0d0d0d]'>
+            <div className='sticky left-0 top-0 w-full z-10 ease-in duration-300 bg-[#0d0d0d] z-50'>
                 <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-[#edf0f1]'>
                     <div href='/'>
                         <h1 className='font-bold text-3xl hover:text-[#ee5b6e] cursor-pointer'>
