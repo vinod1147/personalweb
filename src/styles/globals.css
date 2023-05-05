@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.contacth {
+  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke-color: #EE5B6E;
+}
+
 @media only screen and (max-width: 865px) {
     .cButton {
       display: none;

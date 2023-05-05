@@ -10,6 +10,7 @@ module.exports = {
     },
     backgroundImage: {
       'footerbg': "url('/footerbg.png')",
+      'contactbg': "url('/contactbg.jpg')"
     },
   },
   plugins: [],
